@@ -1,7 +1,7 @@
 {
     "name": "WebBlocks-wrapper-jquery",
-    "version": "1.10.2",
+    "version": "1.11.0",
     "dependencies": {
-      "jquery": "~1.10.2"
+      "jquery": "~1.11.0"
     }
 }
