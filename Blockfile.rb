@@ -1,3 +1,6 @@
-block 'jquery', :path => 'bower_components/jquery/dist' do
+require 'web_blocks/facade/external_component_block'
+register_facade :external_component_block, ::WebBlocks::Facade::ExternalComponentBlock
+
+external_component_block 'jquery', path: 'dist' do
   js_file 'jquery.js'
 end
